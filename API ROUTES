@@ -4,7 +4,6 @@
   PUT|PATCH       api/productos/{producto} .............................. productos.update › ProductoController@update
   DELETE          api/productos/{producto} ............................ productos.destroy › ProductoController@destroy
 
-
 JSON
 {
     "nombre": " editado",
