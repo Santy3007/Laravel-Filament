@@ -1,0 +1,5 @@
+  GET|HEAD        api/productos ........................................... productos.index › ProductoController@index
+  POST            api/productos ........................................... productos.store › ProductoController@store
+  GET|HEAD        api/productos/{producto} .................................. productos.show › ProductoController@show
+  PUT|PATCH       api/productos/{producto} .............................. productos.update › ProductoController@update
+  DELETE          api/productos/{producto} ............................ productos.destroy › ProductoController@destroy
