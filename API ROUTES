@@ -3,3 +3,12 @@
   GET|HEAD        api/productos/{producto} .................................. productos.show › ProductoController@show
   PUT|PATCH       api/productos/{producto} .............................. productos.update › ProductoController@update
   DELETE          api/productos/{producto} ............................ productos.destroy › ProductoController@destroy
+
+
+JSON
+{
+    "nombre": " editado",
+    "descripcion": "Descripción",
+    "precio": 19.99,
+    "stock": 10
+}
